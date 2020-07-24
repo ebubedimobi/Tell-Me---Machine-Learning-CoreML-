@@ -13,10 +13,11 @@
 		B2ACC47324CB8AC000C68B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2ACC47124CB8AC000C68B04 /* Main.storyboard */; };
 		B2ACC47524CB8AC100C68B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2ACC47424CB8AC100C68B04 /* Assets.xcassets */; };
 		B2ACC47824CB8AC100C68B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2ACC47624CB8AC100C68B04 /* LaunchScreen.storyboard */; };
+		B2ACC48024CB8B3700C68B04 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B2ACC47F24CB8B3700C68B04 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B2ACC46824CB8ABF00C68B04 /* WhatFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2ACC46824CB8ABF00C68B04 /* Tell Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tell Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2ACC46B24CB8ABF00C68B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2ACC46D24CB8ABF00C68B04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B2ACC46F24CB8AC000C68B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		B2ACC47424CB8AC100C68B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2ACC47724CB8AC100C68B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2ACC47924CB8AC100C68B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2ACC47F24CB8B3700C68B04 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		B2ACC46924CB8ABF00C68B04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2ACC46824CB8ABF00C68B04 /* WhatFood.app */,
+				B2ACC46824CB8ABF00C68B04 /* Tell Me.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,7 @@
 				B2ACC47424CB8AC100C68B04 /* Assets.xcassets */,
 				B2ACC47624CB8AC100C68B04 /* LaunchScreen.storyboard */,
 				B2ACC47924CB8AC100C68B04 /* Info.plist */,
+				B2ACC47F24CB8B3700C68B04 /* Inceptionv3.mlmodel */,
 			);
 			path = WhatFood;
 			sourceTree = "<group>";
@@ -84,7 +87,7 @@
 			);
 			name = WhatFood;
 			productName = WhatFood;
-			productReference = B2ACC46824CB8ABF00C68B04 /* WhatFood.app */;
+			productReference = B2ACC46824CB8ABF00C68B04 /* Tell Me.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2ACC47024CB8AC000C68B04 /* ViewController.swift in Sources */,
+				B2ACC48024CB8B3700C68B04 /* Inceptionv3.mlmodel in Sources */,
 				B2ACC46C24CB8ABF00C68B04 /* AppDelegate.swift in Sources */,
 				B2ACC46E24CB8ABF00C68B04 /* SceneDelegate.swift in Sources */,
 			);
@@ -285,13 +289,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMSK8P2267;
 				INFOPLIST_FILE = WhatFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.blazeapps.WhatFood;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tell Me";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +308,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMSK8P2267;
 				INFOPLIST_FILE = WhatFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.blazeapps.WhatFood;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tell Me";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
